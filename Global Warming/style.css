@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'lato','poppins';
+
+}
+
+/*---------Navbar--------*/
+
+#navbar{
+    z-index: 10;
+}
+
+.bold{
+    font-size: 20px;
+    color: orangered;
+}
+
+li{
+    padding: 5px;
+    
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-top: 80px;
+    padding-left: 30px;
+    border: 20px;
+}
+
+/*----------Home---------*/
+
+span{
+    color: blue;
+    font-size: bold;
+
+}
+
+p{
+    font: 18px;
+}
+
+/*-----Contact-----*/
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+               -1px -1px 5px rgba(0,0,0,.05);
+    border-radius: 30px;
+
+}
